@@ -1,7 +1,7 @@
 import { HiOutlineHashtag, HiOutlineHome, HiOutlinePhotograph, HiOutlineUserGroup } from 'react-icons/hi';
 
 export const genres = [
-  { title: 'Pop', value: 'pop' },
+  { title: 'Pop', value: 'POP' },
   { title: 'Hip-Hop', value: 'hip_hop' },
   { title: 'Dance', value: 'dance' },
   { title: 'Electronic', value: 'electronic' },
