@@ -21,7 +21,7 @@ const Discover = () => {
   const genreTitle = genres.find(({ value }) => value === genreListId)?.title || 'Pop';
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-cols">
       <div className="w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10">
         <h2 className="font-bold text-3xl text-white text-left">Discover {genreTitle}</h2>
         <select
